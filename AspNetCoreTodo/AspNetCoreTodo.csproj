@@ -14,7 +14,7 @@
     <GenerateUserSecretsIdAttribute>false</GenerateUserSecretsIdAttribute>  
     <GenerateRazorLanguageVersionAttribute>false</GenerateRazorLanguageVersionAttribute>
     <GenerateRazorConfigurationNameAttribute>false</GenerateRazorConfigurationNameAttribute>
-    <DockerTargetOS>Windows</DockerTargetOS>
+    <DockerTargetOS>Linux</DockerTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,10 +23,10 @@
 
   <ItemGroup>
     <PackageReference Include="Humanizer" Version="2.5.1" />
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.4" />
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.1916590" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.1.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.5" PrivateAssets="All" />
   </ItemGroup>
 
