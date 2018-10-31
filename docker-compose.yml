@@ -1,0 +1,12 @@
+version: '2.1'
+services:
+    nginx:
+        build: ./nginx
+        links:
+            - kestrel:kestrel
+        ports:
+            - "80:80"
+    kestrel:
+        build: ./AspNetCoreTodo
+        ports:
+            - "80"
